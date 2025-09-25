@@ -214,7 +214,7 @@ export default function CoursePage() {
         {/* Back button in far left */}
         <button
           onClick={() => router.push("/")}
-          className="absolute left-6 top-1/2 transform -translate-y-1/2 flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200 z-10"
+          className="absolute left-6 top-1/2 transform -translate-y-1/2 flex items-center text-green-600 hover:text-green-800 font-medium transition-colors duration-200 z-10"
         >
           <svg
             className="w-5 h-5 max-[1000px]:mr-0 mr-2"
@@ -236,7 +236,7 @@ export default function CoursePage() {
           {/* Centered logo */}
           <div className="flex justify-center">
             <Image
-              src="/logo_an_respect_bg.png"
+              src="/mk-study.png"
               alt="Logo"
               width={150}
               height={80}
@@ -251,7 +251,7 @@ export default function CoursePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           {/* Course Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-blue-800 px-8 py-12 text-white">
+          <div className="bg-gradient-to-r from-green-600 to-green-800 px-8 py-12 text-white">
             <h3 className="text-3xl font-bold mb-4">{course.title}</h3>
           </div>
 
