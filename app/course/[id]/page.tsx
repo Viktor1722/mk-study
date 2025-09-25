@@ -167,7 +167,7 @@ export default function CoursePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-gray-600">Зареждане...</p>
@@ -178,7 +178,7 @@ export default function CoursePage() {
 
   if (error || !course) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <div className="bg-white rounded-lg shadow-md p-8 max-w-md">
             <div className="text-red-500 text-5xl mb-4">⚠️</div>
@@ -207,10 +207,10 @@ export default function CoursePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200">
+    <div className="min-h-screen">
       {/* Logo in top left */}
       {/* Header */}
-      <div className="bg-white shadow-sm relative">
+      <div className="relative">
         {/* Back button in far left */}
         <button
           onClick={() => router.push("/")}
@@ -360,7 +360,7 @@ export default function CoursePage() {
 
       {/* Modules Dialog */}
       {isDialogOpen && (
-        <div className="fixed inset-0  bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[80vh] overflow-hidden">
             {/* Dialog Header */}
             <div className="flex items-center justify-between p-6 border-b border-gray-200">
