@@ -106,7 +106,7 @@ export default function Home() {
                       <h3 className="text-lg font-semibold text-gray-900 mb-3">
                         {course.title}
                       </h3>
-                      <div className="w-12 h-1 bg-blue-600 mx-auto rounded-full"></div>
+                      <div className="w-12 h-1 bg-green-600 mx-auto rounded-full"></div>
                     </div>
                   </div>
                 ))}
